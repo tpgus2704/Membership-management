@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+    <title>POST</title>
+</head>
+
+<body>
+    <br><br>
+    <div class="w3-header w3-center">
+        <h2>로그인/LOGIN</h2>
+    </div>
+    <div class="w3-table w3-red w3-center">
+        <form method="POST">
+            <div class="w3-center w3-text-white"><h3>사용자명과 암호를 입력하세요</h3></div>
+            <table align="center">
+                <tr>
+                    <td><label>사용자명(ID)</label></td>
+                    <td><input type="text" name="id" /></td>
+                </tr>
+                <tr>
+                    <td><label>암호(Passwd)</label></td>
+                    <td><input type="password" name="pw" /></td>
+                </tr>
+                <tr>
+                    <td><a href="/SIGNUP" class="w3-button w3-round-xxlarge w3-yellow w3-block">회원가입</a></td>
+                    <td><input type="submit" value="로그인" class="w3-button w3-round-xxlarge w3-yellow w3-block" /></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <div id="kakao-login-btn"></div>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div class="w3-margin w3-text-red w3-center">
+        <p>등록된 사용자의 아이디와 암호로 로그인 할 수 있습니다.<br>(ID: gdhong, PW: gdhong 사용)</p>
+    </div>
+
+    <script>
+        Kakao.init('34aa9188c31af8fd64eb46a6845b9b34'); // 여러분의 Kakao 앱 키로 대체하세요
+
+        Kakao.Auth.createLoginButton({
+            container: '#kakao-login-btn',
+            size: 'medium',
+            success: function (authObj) {
+                console.log("로그인 완료");
+
+                window.location.href = '/home';
+            },
+            fail: function (err) {
+                // 로그인 실패 처리
+                console.error(err);
+            },
+            redirectUri: 'http://localhost/home/auth/kakao/callback', // 여기를 로컬 환경에 맞게 수정하세요.
+        });
+    </script>
+</body>
+
+</html>

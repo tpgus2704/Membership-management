@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+ <HTML>
+   <HEAD>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+     <TITLE>LIST</TITLE>
+   </HEAD>
+   <BODY>
+     <div class="w3-top">
+      <div class="w3-bar w3-dark-grey">
+        <a href="/home" class="w3-bar-item w3-button">홈</ a>
+        <a href="/insert" class="w3-bar-item w3-button">생성</a>
+        <a href="/edit" class="w3-bar-item w3-button">수정</a>
+        <a href="/del" class="w3-bar-item w3-button">삭제</a>
+<!--     <a href="/find" class="w3-bar-item w3-button">찾기</a>  -->
+        <a href="/list" class="w3-bar-item w3-button">명단</a>
+        <button id="logoutButton" class="w3-bar-item w3-button">로그아웃</button>
+      </div>
+     </div>
+     <br><br>
+     <div class="w3-header w3-center">
+       <h2>회 원 명 단</h2>
+     </div>
+
+     <table class="w3-table-all">
+       <thead>
+         <tr class="w3-lime">
+           <th>번호</th><th>성 명</th><th>거주지</th>
+       </thead>
+        <% data.forEach(function(user, index) { %>
+        <%# // 필드명이 대문자이면 ejsHTML문서에서도 대문자(ID, NAME, REGION)여야 함 %>
+        <tr>
+          <td>[<%= user.id %>]</td>
+          <td><%= user.name %></td>
+          <td><%= user.region %></td>
+        </tr>
+       <% }) %>
+     </table>
+     <script>
+      // 로그아웃 버튼 클릭 시 처리
+      document.getElementById('logoutButton').addEventListener('click', function () {
+        fetch('/logout', {
+          method: 'POST',
+          credentials: 'same-origin'
+        })
+          .then(response => {
+            if (response.ok) {
+              // 로그아웃 성공 시 팝업 메시지 표시
+              alert('로그아웃 되었습니다.');
+              // 페이지 리로드 또는 다른 동작 수행
+              window.location.reload();
+            } else {
+              console.error('로그아웃 실패');
+            }
+          })
+          .catch(error => {
+            console.error('로그아웃 요청 실패:', error);
+          });
+      });
+    </script>
+   </BODY>
+ </HTML>

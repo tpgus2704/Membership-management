@@ -1,0 +1,417 @@
+Server 실행중: localhost
+Server 실행중: localhost
+Server 실행중: localhost
+Server 실행중: localhost
+Server 실행중: localhost
+Server 실행중: localhost
+Server 실행중: localhost
+Server 실행중: localhost
+Server 실행중: localhost
+Server 실행중: localhost
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+USER <gdhong> NOT FOUND !!(1)
+USER <gdhong> NOT FOUND !!(1)
+USER <gdhong> NOT FOUND !!(1)
+USER <gdhong> NOT FOUND !!(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+USER <gdhong> NOT FOUND !!(1)
+USER <gdhong> NOT FOUND !!(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+USER <gdhong> NOT FOUND !!(1)
+USER <gdhong> NOT FOUND !!(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+USER <gdhong> NOT FOUND !!(1)
+USER <gdhong> NOT FOUND !!(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+2023-11-21 10:59:19 INSERT= 이성훈,안산시(1)
+2023-11-21 10:59:27 DELETE= 1(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+USER <12> NOT FOUND !!(1)
+USER <12> NOT FOUND !!(1)
+USER <tpgus> NOT FOUND !!(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Error: ER_NO_SUCH_TABLE: Table 'aits.users' doesn't exist
+Server 실행중: localhost
+DBMS Connected!----!!
+Error: ER_NO_SUCH_TABLE: Table 'aits.users' doesn't exist
+Error: ER_NO_SUCH_TABLE: Table 'aits.users' doesn't exist
+Error: ER_NO_SUCH_TABLE: Table 'aits.users' doesn't exist
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+USER <tpgus> NOT FOUND !!(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+USER <123> NOT FOUND !!(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+USER <2> NOT FOUND !!(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+LOGIN INCORRECT !!(1)
+LOGIN INCORRECT !!(1)
+LOGIN INCORRECT !!(1)
+LOGIN INCORRECT !!(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+LOGIN INCORRECT !!(1)
+LOGIN INCORRECT !!(1)
+LOGIN INCORRECT !!(1)
+LOGIN INCORRECT !!(1)
+LOGIN INCORRECT !!(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+LOGIN INCORRECT !!(1)
+LOGIN INCORRECT !!(1)
+USER <qww> NOT FOUND !!(1)
+LOGIN INCORRECT !!(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+LOGIN INCORRECT !!(1)
+LOGIN INCORRECT !!(1)
+LOGIN INCORRECT !!(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+LOGIN INCORRECT !!(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+LOGIN INCORRECT !!(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+2023-12-2 19:2:15 LOGGED IN= asd(1)
+LOGIN INCORRECT !!(1)
+2023-12-2 19:2:38 LOGGED IN= gdhong(1)
+USER <qwe> NOT FOUND !!(1)
+USER <qwe> NOT FOUND !!(1)
+2023-12-2 22:32:34 LOGGED IN= gdhong(1)
+USER <qww> NOT FOUND !!(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+USER <aw> NOT FOUND !!(1)
+2023-12-2 22:35:21 LOGGED IN= qwee(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+2023-12-3 0:35:50 LOGGED IN= gdhong(1)
+2023-12-3 17:6:6 LOGGED IN= gdhong(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+2023-12-3 17:17:50 LOGGED IN= gdhong(1)
+2023-12-3 17:18:10 LOGGED IN= gdhong(1)
+2023-12-3 17:19:33 LOGGED IN= gdhong(1)
+2023-12-3 17:34:55 LOGGED IN= gdhong(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+2023-12-3 17:35:31 LOGGED IN= gdhong(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+2023-12-3 17:59:2 LOGGED IN= gdhong(1)
+2023-12-3 17:59:3 LOGGED OUT= gdhong(1)
+2023-12-3 17:59:32 LOGGED IN= gdhong(1)
+2023-12-3 17:59:36 LOGGED OUT= gdhong(1)
+2023-12-3 18:4:2 LOGGED IN= gdhong(1)
+2023-12-3 18:4:5 LOGGED OUT= gdhong(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+2023-12-3 18:4:45 LOGGED IN= gdhong(1)
+2023-12-3 18:4:46 LOGGED OUT= gdhong(1)
+2023-12-3 18:7:34 LOGGED IN= gdhong(1)
+2023-12-3 18:7:36 LOGGED OUT= gdhong(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+2023-12-3 18:8:16 LOGGED IN= gdhong(1)
+2023-12-3 18:8:18 LOGGED OUT= gdhong(1)
+2023-12-3 18:52:1 LOGGED IN= gdhong(1)
+2023-12-3 18:52:3 LOGGED OUT= gdhong(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+2023-12-3 18:57:1 LOGGED IN= gdhong(1)
+2023-12-3 18:57:4 LOGGED OUT= gdhong(1)
+2023-12-3 18:57:40 LOGGED IN= gdhong(1)
+2023-12-3 18:57:46 LOGGED OUT= gdhong(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+2023-12-3 19:5:50 LOGGED IN= gdhong(1)
+2023-12-3 19:5:51 LOGGED OUT= gdhong(1)
+2023-12-3 19:7:36 LOGGED IN= gdhong(1)
+2023-12-3 19:7:38 LOGGED OUT= gdhong(1)
+2023-12-3 19:10:40 LOGGED IN= gdhong(1)
+2023-12-3 19:10:42 LOGGED OUT= gdhong(1)
+2023-12-3 19:12:59 LOGGED IN= gdhong(1)
+2023-12-3 19:13:0 LOGGED OUT= gdhong(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+2023-12-3 19:14:46 LOGGED IN= gdhong(1)
+2023-12-3 19:14:48 LOGGED OUT= gdhong(1)
+2023-12-3 19:15:31 LOGGED IN= gdhong(1)
+2023-12-3 19:15:33 LOGGED OUT= gdhong(1)
+2023-12-3 19:16:3 LOGGED IN= gdhong(1)
+2023-12-3 19:16:5 LOGGED OUT= gdhong(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+2023-12-3 19:21:10 LOGGED IN= gdhong(1)
+2023-12-3 19:21:15 LOGGED OUT= gdhong(1)
+2023-12-3 19:23:59 LOGGED IN= gdhong(1)
+2023-12-3 19:24:35 LOGGED OUT= gdhong(1)
+2023-12-3 19:24:47 LOGGED IN= gdhong(1)
+2023-12-3 19:26:44 LOGGED IN= gdhong(1)
+2023-12-3 19:28:49 LOGGED IN= gdhong(1)
+2023-12-3 19:28:50 LOGGED OUT= gdhong(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+2023-12-3 19:45:30 LOGGED IN= gdhong(1)
+2023-12-3 19:45:31 LOGGED OUT= gdhong(1)
+USER <rrq> NOT FOUND !!(1)
+USER <rrq> NOT FOUND !!(1)
+2023-12-3 19:50:1 LOGGED IN= qw(1)
+2023-12-3 19:50:5 LOGGED OUT= qw(1)
+2023-12-3 19:55:12 LOGGED IN= gdhong(1)
+2023-12-3 19:55:14 LOGGED OUT= gdhong(1)
+2023-12-3 20:12:22 LOGGED IN= gdhong(1)
+2023-12-3 20:12:24 LOGGED OUT= gdhong(1)
+2023-12-3 20:16:34 LOGGED IN= gdhong(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+2023-12-3 20:16:55 LOGGED IN= gdhong(1)
+2023-12-3 20:16:56 LOGGED OUT= gdhong(1)
+2023-12-3 20:17:6 LOGGED IN= gdhong(1)
+2023-12-3 20:19:18 LOGGED IN= gdhong(1)
+2023-12-3 20:19:23 LOGGED OUT= gdhong(1)
+2023-12-3 20:21:26 LOGGED IN= gdhong(1)
+2023-12-3 20:31:9 LOGGED IN= gdhong(1)
+2023-12-3 20:39:7 LOGGED IN= gdhong(1)
+2023-12-3 20:39:22 LOGGED IN= gdhong(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+2023-12-3 20:42:22 LOGGED IN= gdhong(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+LOGIN INCORRECT !!(1)
+LOGIN INCORRECT !!(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+2023-12-4 1:31:11 LOGGED IN= gdhong(1)
+2023-12-4 1:31:13 LOGGED OUT= gdhong(1)
+2023-12-4 1:37:5 LOGGED IN= dk(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+2023-12-4 1:42:15 LOGGED IN= gdhong(1)
+2023-12-4 1:42:17 LOGGED OUT= gdhong(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+2023-12-4 2:4:16 LOGGED IN= gdhong(1)
+2023-12-4 2:7:28 LOGGED OUT= gdhong(1)
+2023-12-4 2:8:39 LOGGED IN= gdhong(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+2023-12-4 2:42:19 LOGGED IN= gdhong(1)
+2023-12-4 2:42:22 LOGGED OUT= gdhong(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+LOGIN INCORRECT !!(1)
+LOGIN INCORRECT !!(1)
+2023-12-4 2:49:32 LOGGED IN= gdhong(1)
+LOGIN INCORRECT !!(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+LOGIN INCORRECT !!(1)
+LOGIN INCORRECT !!(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+2023-12-4 14:29:59 LOGGED IN= asddd(1)
+2023-12-4 23:56:8 LOGGED IN= zzz(1)
+2023-12-4 23:56:17 LOGGED OUT= zzz(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+LOGIN INCORRECT !!(1)
+LOGIN INCORRECT !!(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+LOGIN INCORRECT !!(1)
+2023-12-5 13:55:56 LOGGED IN= ffw(1)
+2023-12-5 13:56:9 LOGGED OUT= ffw(1)
+LOGIN INCORRECT !!(1)
+LOGIN INCORRECT !!(1)
+LOGIN INCORRECT !!(1)
+2023-12-5 14:16:57 LOGGED IN= ffw(1)
+2023-12-5 14:19:34 LOGGED OUT= ffw(1)
+LOGIN INCORRECT !!(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+LOGIN INCORRECT !!(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+LOGIN INCORRECT !!(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+LOGIN INCORRECT !!(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+LOGIN INCORRECT !!(1)
+2023-12-5 14:27:7 LOGGED IN= rt(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+LOGIN INCORRECT !!(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+LOGIN INCORRECT !!(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+2023-12-5 14:53:37 LOGGED IN= gdhong(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+2023-12-5 22:24:52 LOGGED IN= gdhong(1)
+2023-12-5 22:24:54 LOGGED OUT= gdhong(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+2023-12-5 23:7:10 LOGGED IN= gdhong(1)
+2023-12-5 23:7:18 LOGGED OUT= gdhong(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+2023-12-5 23:13:22 LOGGED IN= gdhong(1)
+2023-12-5 23:13:27 LOGGED OUT= gdhong(1)
+2023-12-5 23:13:32 LOGGED IN= gdhong(1)
+2023-12-5 23:14:44 LOGGED OUT= gdhong(1)
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+Server 실행중: localhost
+DBMS Connected!----!!
+2023-12-5 23:55:33 LOGGED IN= gdhong(1)
+2023-12-5 23:55:35 LOGGED OUT= gdhong(1)
+LOGIN INCORRECT !!(1)
+2023-12-5 23:55:52 LOGGED IN= qw(1)

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>POST</title>
+  </head>
+  <body>
+    <div class="w3-top">
+      <div class="w3-bar w3-dark-grey">
+        <a href="/home" class="w3-bar-item w3-button">홈</a>
+        <a href="/insert" class="w3-bar-item w3-button">생성</a>
+        <a href="/edit" class="w3-bar-item w3-button">수정</a>
+        <a href="/del" class="w3-bar-item w3-button">삭제</a>
+        <a href="/list" class="w3-bar-item w3-button">명단</a>
+        <!-- 로그아웃 버튼 추가 -->
+        <button id="logoutButton" class="w3-bar-item w3-button">로그아웃</button>
+      </div>
+    </div>
+    <br><br>
+    <div class="w3-header w3-center">
+      <h1>환영합니다</h1>
+    </div>
+    <div class="w3-table w3-blue w3-center">
+      <form method="post">
+        <div class="w3-center w3-text-white"><h3>안산대학교 IT응용보안과</h3></div>
+        <table align="center">
+          <tr>
+            <td><label>AITS 회원관리 프로그램</label></td>
+          </tr>
+          <tr>
+            <td><label>즐거운 시간 되세요.</label></td>
+          </tr>
+          <tr></tr>
+          <tr></tr>
+        </table>
+      </form>
+    </div>
+    <div class="w3-margin w3-text-cyan w3-center">
+      <p>[ Node.js + DummyDB + express ]</p>
+    </div>
+
+    <script>
+      // 로그아웃 버튼 클릭 시 처리
+      document.getElementById('logoutButton').addEventListener('click', function () {
+        fetch('/logout', {
+          method: 'POST',
+          credentials: 'same-origin'
+        })
+          .then(response => {
+            if (response.ok) {
+              // 로그아웃 성공 시 팝업 메시지 표시
+              alert('로그아웃 되었습니다.');
+              // 페이지 리로드 또는 다른 동작 수행
+              window.location.reload();
+            } else {
+              console.error('로그아웃 실패');
+            }
+          })
+          .catch(error => {
+            console.error('로그아웃 요청 실패:', error);
+          });
+      });
+    </script>
+  </body>
+</html>

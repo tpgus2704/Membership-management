@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/styles.css">
+    <title>회원가입</title>
+</head>
+<body class="bg-gray-100">
+    <div class="min-h-screen flex items-center justify-center">
+        <div class="bg-white p-8 rounded shadow-md w-96">
+            <h1 class="text-2xl font-semibold mb-6">회원가입</h1>
+            <form id="signupForm" action="/signup" method="post">
+                <div class="mb-4">
+                    <label for="username" class="block text-sm font-medium text-gray-600">아이디</label>
+                    <input type="text" id="username" name="username" class="mt-1 p-2 w-full border rounded">
+                </div>
+                <div class="mb-4">
+                    <label for="password" class="block text-sm font-medium text-gray-600">비밀번호</label>
+                    <input type="password" id="password" name="password" class="mt-1 p-2 w-full border rounded">
+                </div>
+                <div class="mb-4">
+                    <label for="confirmPassword" class="block text-sm font-medium text-gray-600">비밀번호 확인</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword" class="mt-1 p-2 w-full border rounded">
+                </div>
+                <button type="submit" class="bg-blue-500 text-white p-2 rounded">가입하기</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('signupForm').addEventListener('submit', function (event) {
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            const confirmPassword = document.getElementById('confirmPassword').value;
+
+            if (!username || !password || !confirmPassword) {
+                // 필수 필드가 비어있을 경우 팝업으로 에러 메시지 표시
+                alert('모든 필드를 채워주세요.');
+                event.preventDefault(); // 폼 전송 중단
+            } else if (password !== confirmPassword) {
+                // 비밀번호 불일치 시 모달 창 띄우기
+                alert('비밀번호가 일치하지 않습니다.');
+                event.preventDefault(); // 폼 전송 중단
+            } else {
+                // 회원가입 성공 시 팝업으로 메시지 표시
+                alert('회원가입이 완료되었습니다!');
+            }
+        });
+    </script>
+</body>
+</html>
